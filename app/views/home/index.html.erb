@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Imalu Menzies</title>
+	<h1>Imalu Menzies</h1>
+	<%= stylesheet_link_tag "application.css" %>
+</head>
+<body>
+	<center>
+<p>Name:</p> 
+	<p>Imalu Menzies</p>
+<p>Age:</p> 
+	<p>I am 15 years old</p>
+<p>Email:</p>
+	<p>imalu.menzies@hgs.hiddengeniusproject.org</p>
+<p>Mission Statement:</p> 
+	<p>The Hidden Genius Project trains and mentors black male youth in Technology Creation, Entrepreneurship, and Leadership Skills to transform their lives and communities.</p>
+	</center>
+<center>
+<%= image_tag "Imalu.jpg" %>
+</center>
+<center>
+<p>P1</p>
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+</video>
+</center>
+<center>
+<p>P2</p>
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+</video>
+</center>
+<center>
+	<p>Contact Me</p>
+	<label>Your Name</label>
+	<input type="name" name="Your Name"><br>
+	<label>Your Email</label>
+	<input type="email" name="Your Email"><br>
+	<label>Your Message</label>
+	<input type="message" name="Your Message">
+	<br>
+	<button type="button">Submit</button>
+</center>
+<center>
+<%= link_to "My Contacts", contacts_path %>
+</center>
+</body>
+</html>
